@@ -1,0 +1,113 @@
+/* fonts */
+
+@font-face {
+    font-family: vazir;
+    font-weight: 900;
+    font-display: swap;
+        src: url('fonts/Vazir-Black-WOL.eot');
+        src: url('fonts/Vazir-Black-WOL.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+             url('fonts/Vazir-Black-WOL.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+             url('fonts/Vazir-Black-WOL.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+             url('fonts/Vazir-Black-WOL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: vazir;
+    font-weight: 700;
+    font-display: swap;
+        src: url('fonts/Vazir-Bold-WOL.eot');
+        src: url('fonts/Vazir-Bold-WOL.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+             url('fonts/Vazir-Bold-WOL.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+             url('fonts/Vazir-Bold-WOL.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+             url('fonts/Vazir-Bold-WOL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: vazir;
+    font-weight: 500;
+    font-display: swap;
+        src: url('fonts/Vazir-Medium-WOL.eot');
+        src: url('fonts/Vazir-Medium-WOL.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+             url('fonts/Vazir-Medium-WOL.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+             url('fonts/Vazir-Medium-WOL.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+             url('fonts/Vazir-Medium-WOL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: vazir;
+    font-weight: 300;
+    font-display: swap;
+        src: url('fonts/Vazir-Regular-WOL.eot');
+        src: url('fonts/Vazir-Regular-WOL.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+             url('fonts/Vazir-Regular-WOL.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+             url('fonts/Vazir-Regular-WOL.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+             url('fonts/Vazir-Regular-WOL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: vazir;
+    font-weight: 200;
+    font-display: swap;
+        src: url('fonts/Vazir-Light-WOL.eot');
+        src: url('fonts/Vazir-Light-WOL.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+             url('fonts/Vazir-Light-WOL.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+             url('fonts/Vazir-Light-WOL.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+             url('fonts/Vazir-Light-WOL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: vazir;
+    font-weight: 100;
+    font-display: swap; 
+        src: url('fonts/Vazir-Thin-WOL.eot');
+        src: url('fonts/Vazir-Thin-WOL.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+             url('fonts/Vazir-Thin-WOL.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+             url('fonts/Vazir-Thin-WOL.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+             url('fonts/Vazir-Thin-WOL.ttf') format('truetype');
+}
+
+i.icon-angle-down {
+    color: white;
+}
+
+body {
+    font-family: vazir !important;
+        font-weight: 300;
+}
+
+h1, h2 {
+    font-family: vazir !important;
+        font-weight: 900;
+}
+
+h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+    font-family: vazir !important;
+        font-weight: 700;
+}
+
+.widget-title {
+    font-family: vazir !important;
+    font-weight: 500;
+}
+
+.header-account-title {
+    font-family: vazir !important;
+    font-weight: 700;
+}
+
+head {
+    font-family: vazir !important;
+}
+
+html {
+    font-family: vazir !important;
+}
+
+.nav > li > a {
+    font-family: vazir !important;
+}
+
+body .gform_wrapper.gf_rtl_wrapper .gform_footer, body .gform_wrapper.gf_rtl_wrapper .gform_heading, body .gform_wrapper.gf_rtl_wrapper button, body .gform_wrapper.gf_rtl_wrapper div.validation_error, body .gform_wrapper.gf_rtl_wrapper h3.gform_title, body .gform_wrapper.gf_rtl_wrapper input[type=button], body .gform_wrapper.gf_rtl_wrapper input[type=email], body .gform_wrapper.gf_rtl_wrapper input[type=password], body .gform_wrapper.gf_rtl_wrapper input[type=submit], body .gform_wrapper.gf_rtl_wrapper input[type=tel], body .gform_wrapper.gf_rtl_wrapper input[type=text], body .gform_wrapper.gf_rtl_wrapper input[type=url], body .gform_wrapper.gf_rtl_wrapper select, body .gform_wrapper.gf_rtl_wrapper span.gform_description, body .gform_wrapper.gf_rtl_wrapper table tr td.gfield_list_icons, body .gform_wrapper.gf_rtl_wrapper textarea, body .gform_wrapper.gf_rtl_wrapper ul li, body .gform_wrapper.gf_rtl_wrapper ul li.gfield, body .gform_wrapper.gf_rtl_wrapper ul li.gfield input, body .gform_wrapper.gf_rtl_wrapper ul li.gfield select, body .gform_wrapper.gf_rtl_wrapper ul li.gfield textarea, body .gform_wrapper.gf_rtl_wrapper ul li.gfield.gfield_html, body.rtl .gform_wrapper *, body.rtl .gform_wrapper .gform_body, body.rtl .gform_wrapper .gform_footer, body.rtl .gform_wrapper button, body.rtl .gform_wrapper div.validation_error, body.rtl .gform_wrapper form, body.rtl .gform_wrapper h3.gform_title, body.rtl .gform_wrapper input[type=button], body.rtl .gform_wrapper input[type=email], body.rtl .gform_wrapper input[type=password], body.rtl .gform_wrapper input[type=submit], body.rtl .gform_wrapper input[type=tel], body.rtl .gform_wrapper input[type=text], body.rtl .gform_wrapper input[type=url], body.rtl .gform_wrapper select, body.rtl .gform_wrapper span.gform_description, body.rtl .gform_wrapper table tr td.gfield_list_icons, body.rtl .gform_wrapper textarea, body.rtl .gform_wrapper ul li, body.rtl .gform_wrapper ul li.gfield, body.rtl .gform_wrapper ul li.gfield input, body.rtl .gform_wrapper ul li.gfield select, body.rtl .gform_wrapper ul li.gfield textarea, body.rtl .gform_wrapper ul li.gfield.gfield_html {
+    text-align: center!important;
+    direction: rtl!important;
+}
